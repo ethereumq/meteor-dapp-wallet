@@ -17,8 +17,8 @@ The available units
 @property selectableUnits
 */
 selectableUnits = [{
-    text: 'ETHER',
-    value: 'ether'
+    text: 'etherq',
+    value: 'etherq'
 },
 {
     text: 'FINNEY', //(µΞ)
