@@ -1,18 +1,13 @@
-# Ethereum Wallet Ðapp
+# Ethereum Quantum Wallet Ðapp
 
-The Ethereum wallet.
-
-[![Build Status](https://travis-ci.org/ethereum/meteor-dapp-wallet.svg?branch=master)](https://travis-ci.org/ethereum/meteor-dapp-wallet)
-
-**NOTE** The wallet is not yet official released,
-can contain severe bugs!
+The Ethereum Quantum Wallet.
 
 
 ## Development
 
 Start an `geth` node and and the app using meteor and open http://localhost:3000 in your browser:
 
-    $ geth --rpccorsdomain "http://localhost:3000" --rpc --unlock <your account>
+    $ gethq --rpccorsdomain "http://localhost:3000" --rpc --unlock <your account>
 
 Starting the wallet dapp using [Meteor](https://meteor.com/install)
 
