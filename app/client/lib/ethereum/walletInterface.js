@@ -32,7 +32,6 @@ contractVersions = [
 // CHECK FOR NETWORK
 web3.eth.getBlock(0, function(e, res){
     if(!e){
-        console.log('HASH====> ', res.hash);
 
         switch(res.hash) {
             case '0xf4d86090f217c8443c0d0f2a11b5f8a5606d9269a652a6e739c658431b1bb8fc':
