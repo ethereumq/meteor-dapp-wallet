@@ -41,7 +41,7 @@ Template.registerHelper('isWalletMode', function(){
 });
 
 /**
-Check if currenct unit is an etherq unit
+Check if currenct unit is an ether unit
 
 @method (isEtherUnit)
 **/
@@ -191,7 +191,7 @@ Template.registerHelper('formatTime', Helpers.formatTime);
 /**
 Formats a given transactions balance
 
-    {{formatTransactionBalance value exchangeRates "etherq"}}
+    {{formatTransactionBalance value exchangeRates "ether"}}
 
 @method formatTransactionBalance
 @param {String} value  the value to format
