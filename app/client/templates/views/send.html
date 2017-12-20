@@ -79,7 +79,7 @@
                             <input type="radio" id="etherq" value="etherq" name="choose-token" {{tokenSelectedAttr 'etherq'}}>
                             <label for="etherq">
                                 <span class="ether-symbol">Ξ</span>
-                                <span class="token-name">ETHER</span>
+                                <span class="token-name">ETHERQ</span>
                                 <span class="balance">
                                     {{#if $neq unit 'etherq'}}
                                         {{dapp_formatBalance selectedAccount.balance "0,0.00 UNIT"}} ({{dapp_formatBalance selectedAccount.balance "0,0.00[0000000000000000] UNIT" "etherq"}})
@@ -105,7 +105,7 @@
                 {{else}}
                     <div class="token-ether">
                         <span class="ether-symbol">Ξ</span>
-                        <span class="token-name">ETHER</span>
+                        <span class="token-name">ETHERQ</span>
                         <span class="balance">
                             {{#if $neq unit 'etherq'}}
                                 {{dapp_formatBalance selectedAccount.balance "0,0.00 UNIT"}} ({{dapp_formatBalance selectedAccount.balance "0,0.00[0000000000000000] UNIT" "etherq"}})
